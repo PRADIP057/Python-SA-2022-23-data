@@ -1,6 +1,6 @@
 # Python-SA-2022-23-data
 # South Australia Crime Data Analysis (2022-2023)
-
+## THIS NOTEBOOK CONTAINS AN INTERACTIVE GRAPHS SO IT WOULD BE BETTER IF YOU DOWNLOAD THE NOTEBOOK BECAUSE THE INTERACTIVE GRAPH MIGHT NOT BE DIRECTLY VISIBLE IN GITHUB BUT WHEN YOU RUN IT IN A LOCAL ENVIRONMENT WITH THE REQUIRED LIBRARIES MENTIONED YOU WILL SEE THE MAGIC OF PLOTLY.
 This repository contains a Jupyter notebook that analyzes crime data for South Australia from the year 2022 to 2023. The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/kanchana1990/south-australia-crime-data-2022-2023).
 
 ## Overview
@@ -42,6 +42,10 @@ The analysis covers various aspects of the crime data, including:
 - pgeocode
 
 Install the required packages using the following command:
+At any stage if module not found error hits feel free to run
+```bash
+pip install module_name
+```
 
 ```bash
 pip install pandas numpy plotly pgeocode
